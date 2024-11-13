@@ -1,0 +1,48 @@
+<!-- 1)კომენტარის სახით ახსენით required / disabled / name / for / id / type ატრიბუტების დანიშნულებელი და რასთან ვიყენებთ
+
+2)შექმენით სარეგისტრაციო ფორმა, სადაც მომხმარებელს შემოატანინებთ: სახელს,
+ გვარს, ემაილს, პაროლს და ამ ფორმაში ჩააშენეთ drop down menu, სადაც მომხმარებელს შეეკითხებით მის ქვეყანას (georgia, france, spain...)
+
+3)შექმენით საიტი თქვენს საყვარელ იუთუბერებზე, სადაც გექნებათ heading-ითგამოტანილი ამ იუთუბერის სახელი, პარაგრაფით დაწერილი მასზე
+ მცირე ინფორმაცია და უნდა გქონდეთ დართული მათი ერთერთი ვიდეო <video> თეგის გამოყენებით, ქვემოთ კი დაამატეთ ღილაკი
+     რომელიც გადაგიყვანთ მათ იუთუბ არხზე (უნდა გქონდეთ მინიმუმ 3 მაგალითი) -->
+ 
+
+
+
+
+<!-- repuired-აუცილებლად უდა დავუწეროთ ჩვენს თეგს რომ იმუშავოს მაგ:src,href -->
+<!-- disabled- -->
+<!-- name-ელემენტს ანიჭებს სახელს -->
+<!-- for-თვის, რაიმესთვის -->
+<!-- id-ყველა ელემენტს აქვს თავისი აიდი რომელიც ელემენტს მხოლოდ ერთადერთი აქვს და აიდს ვიყენებთ რაიმესთან დასაკავშირებლად -->
+<!-- type-ვამოწმებთ ელემენტის მონაცემთა ტიპს -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">name</label>
+        <input type="text" id="name"><br>
+        <label for="surname">surname</label>
+        <input type="text" id="surname"><br>
+        <label for="email">email</label>
+        <input type="email" id="email"><br>
+        <label for="password">password</label>
+        <input type="password" id="password">
+        <select>
+            <option>georgia</option>
+            <option>france</option>
+            <option>spain</option>
+            <option selected disabled>choos country</option>
+        </select>
+    </form>
+    </body>
+</html>
