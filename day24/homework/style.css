@@ -1,0 +1,38 @@
+#pr0 {
+    text-align:center;
+    color: green;
+}
+
+h4 {
+    text-align: center;border: 10px aqua solid; 
+}
+
+#pr1{
+    border: 4px red solid;
+}
+
+#pr2 {
+    border: 4px goldenrod solid;
+}
+
+#pr3 {
+    border: 4px salmon solid;
+}
+
+#pr4{
+    border: 4px bisque solid;
+}
+
+nav {
+    border: 4px green solid;
+}
+
+#food {
+    color: brown;
+    text-align: center;
+}
+
+#div1 {
+    border: 4px blueviolet solid;
+}
+

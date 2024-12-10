@@ -1,0 +1,77 @@
+<!-- 1)კომენტარის სახით ახსენით განსხვება Inline - Internal - External CSS-ს შორის.
+inline css - როდესაც ელემენტს ვსტილავთ style ატრიბუტის დახმარებით 
+
+internal css - როდესაც ელემენტებს ვიყენებთ style თეგს და მასში ვსტილავთ css ის კოდის დახმარებით ელემენტებს
+
+extarnal css - როდესაც ვქმნით css ის ცალკე ფაილს და უკვე ამ css ის ფაილში ვსტილავთ ელემენტებს css ის კოდის საშუალებით
+2)შექმენით მსგავსი დიზაინის მქონე Table. -->
+
+
+<!-- 3)შექმენით ცხრილი სადაც იქნება თქვენი მეგობრების სახელები და მათი ასაკები ,შემდეგ -->
+
+<!-- ცხრილში მოთავსებულ სახელებს შეუცვალეთ ტექსტის ფერები(რა ფერიც გინდათ მიეცით) და  ცხრილში -->
+
+<!-- მოთავსებულ ელემენტებს შეუცვალეთ ბექგარუნდის ფერები -->
+
+
+<!-- 4)შექმენით HTML ფაილი სამი სათაურით (h1, h2, h3). თითოეულს მიანიჭეთ უნიკალური id  -->
+
+<!-- (heading1, heading2, heading3). შემდეგ თითოეულს მიეცით განსხვავებული ფერები -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border>
+        <tr>
+            <th>sr.no</th>
+            <th>roll no</th>
+            <th>name</th>
+            <th>team</th>
+        </tr>
+
+        <tr>
+            <td class="first">1</td>
+            <td>1001</td>
+            <td>john</td>
+            <td>red</td>
+        </tr>
+
+        <tr>
+            <td class="first">2</td>
+            <td>1002</td>
+            <td>peter</td>
+            <td>blue</td>
+        </tr>
+
+        <tr>
+            <td class="first">3</td>
+            <td>1003</td>
+            <td>henry</td>
+            <td>green</td>
+        </tr>
+    </table><br><br><br>
+
+    <table border>
+        <tr id="table">
+            <th class="th">name</th>
+            <th class="th">age</th>
+        </tr>
+        <tr id="f34">
+            <td>dato</td>
+            <td>14</td>
+        </tr>
+        <tr id="f56">
+            <td>misho</td>
+            <td>14</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+

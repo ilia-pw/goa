@@ -29,10 +29,10 @@
 # 5)შექმენით სია სტრინგით და თითოეული სტრინგი გადაიყვანეთ დიდ ასოებად for ციკლის მეშვეობით
 
 
-names = ["ilia","vano","gio"]
+# names = ["ilia","vano","gio"]
 
-for i in names:
-    print(i.upper())
+# for i in names:
+#     print(i.upper())
 
 
 
