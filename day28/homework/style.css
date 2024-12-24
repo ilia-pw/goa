@@ -1,0 +1,49 @@
+p {
+    color: brown;
+}
+
+
+#snake {
+    color: palegoldenrod;
+}
+
+#monkey {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+#horse {
+    color: blueviolet;
+}
+
+#turtle {
+    color: aquamarine;
+}
+
+#gm {
+    color: aqua;
+}
+
+#sm {
+    color: yellowgreen;
+}
+
+#xm {
+    color: brown;
+}
+
+
+#wm {
+    color: cadetblue;
+}
+
+#cm {
+    color: goldenrod;
+}
+
+#bd {
+    background-color: red;
+}
