@@ -1,0 +1,23 @@
+#d1 {
+   background-color: brown; 
+   width: 500px;
+}
+
+#d1:hover {
+    background-color: blue;
+    width: 4000px;
+}
+
+
+a:visited {
+    color: brown;
+}
+
+
+table:nth-child(even) {
+    background-color: blue;
+}
+
+
+
+
