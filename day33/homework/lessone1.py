@@ -60,10 +60,10 @@ def sum_cubes(n):
 
 
 
-# number = ["ilia","vano","giorgi","saba","vaxo"]
-# number.pop(2)
-# number.insert(0,"giorgi")
-# print(number)
+number = ["ilia","vano","giorgi","saba","vaxo"]
+number.pop(2)
+number.insert(0,"giorgi")
+print(number)
 
 
 
